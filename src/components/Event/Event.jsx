@@ -6,6 +6,7 @@ function Event(props) {
 
     function handleClick() {
         navigate('/event', { state: { event: event } });
+        fetch(`${import.meta.env.VITE_API_URL}/api/events`);
     }
 
     return (
