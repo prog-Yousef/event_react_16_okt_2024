@@ -15,7 +15,7 @@ function isProduction() {
 const router = createBrowserRouter(
   [
     {
-      path: "/", // / är startsidan
+      path: "/", // är startsidan
       element: <Events />,
     },
     {
