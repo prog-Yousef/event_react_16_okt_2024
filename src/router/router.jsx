@@ -1,3 +1,4 @@
+
 import { createBrowserRouter } from "react-router-dom";
 
 import Events from "../pages/Events";
