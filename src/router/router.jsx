@@ -8,7 +8,7 @@ import Confirmation from "../pages/Confirmation";
 function isProduction() {
   console.log(import.meta.env);
 
-  if (import.meta.env.PROD) return { basename: /live-16-okt/ };
+  if (import.meta.env.PROD) return { basename: import.meta.env.BASE_URL }; //samma som base vite.config.js
   else return {};
 }
 
